@@ -1,0 +1,128 @@
+.text{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+.text:hover{
+    text-shadow: 20px 20px 20px grey;
+    cursor: pointer;
+}
+.all{
+    display: flex;
+    margin-left: 10px;
+}
+.box1{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+.all:hover{
+    box-shadow: 0px 0px 15px grey;
+}
+.basic p{
+    width: 100%;
+    padding: 30px 0px;
+    border: 1px solid rgb(158, 155, 155);
+    margin: auto;
+    color: aliceblue;
+    background-color: black;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.first p{
+    width: 500px;
+    padding: 30px 0px;
+    border: 1px solid black;
+    font-size: 17px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.second p{
+    width: 500px;
+    padding: 30px 0px;
+    border: 1px solid black;
+    font-size: 17px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.third p{
+    width: 500px;
+    padding: 30px 0px;
+    border: 1px solid black;
+    font-size: 17px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.fouth p{
+    width: 500px;
+    padding: 30px 0px;
+    border: 1px solid black;
+    font-size: 17px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.five p{
+    width: 500px;
+    padding: 30px 0px;
+    border: 1px solid black;
+    font-size: 17px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.six p{
+    width: 100px;
+    padding: 30px 0px;
+    border: 1px solid black;
+    font-size: 17px;
+    margin: auto;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #4CAF50;
+}
+.box2{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+.pro p{
+    width: 100%;
+    padding: 30px 0px;
+    border: 1px solid black;
+    margin: auto;
+    color: aliceblue;
+    background-color: #4CAF50;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.box3{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+.premium p{
+    width: 100%;
+    padding: 30px 0px;
+    border: 1px solid black;
+    margin: auto;
+    color: aliceblue;
+    background-color: black;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.six p:hover{
+    background-color: blue;
+    color: black;
+}

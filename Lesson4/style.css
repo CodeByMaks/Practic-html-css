@@ -1,0 +1,18 @@
+.all{
+    display: flex;
+}
+
+img{
+    width: 60%;
+    height: 500px;
+}
+
+h1{
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+p{
+    margin-left: 30px;
+    font-size: 30px;
+}

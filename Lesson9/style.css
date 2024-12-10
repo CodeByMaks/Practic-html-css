@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+.all{
+    border: 1px solid red;
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    margin-bottom: 50%;
+    position: relative;
+}
+.box{
+    padding: 30px 0px ;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.one1{
+    background-color: green;
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+.one2{
+    background-color: aqua;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+.one3{
+    background-color: rgb(238, 255, 205) ;
+    position: absolute;
+    width: 100px;
+    top: 0px;
+    left: 50px;
+}
+.one4{
+    background-color: brown ;
+    position: sticky;
+    top: 80px;
+}

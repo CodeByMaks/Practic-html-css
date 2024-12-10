@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    z-index: 3;
+    box-shadow: 0px 0px 10px gray;
+    background-color: white;
+}
+.header p {
+    letter-spacing: 4px;
+    font-size: 15px;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text_right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 30px;
+    padding-right: 20px; 
+}
+.text_right p:hover {
+    color: #007bff; 
+    cursor: pointer;
+}
+.cont1 {
+    background-image: url(./img/architect.jpg);
+    background-size: cover; 
+    background-position: center; 
+    width: 98%;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: relative;
+}
+.bain {
+    text-align: center;
+}
+.br{
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+    letter-spacing: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.architects{
+    color: white;
+    font-size: 37px;
+    letter-spacing: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+}
+.project{
+    width: 94%;
+}
+.project p{
+    padding: 40px 40px 20px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 50px;
+}
+.row_pad{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.max{
+    width: 330px;
+    height: 250px;
+    background-image: url(./img/house5.jpg);
+    margin-bottom: 10px;
+    background-size: cover; 
+    margin-right: 15px;
+    box-shadow: 0px 0px 10px gray;
+}
+.max1{
+    width: 330px;
+    height: 250px;
+    background-image: url(./img/house2.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    box-shadow: 0px 0px 10px gray;
+}
+.max2{
+    width: 330px;
+    height: 250px;
+    background-image: url(./img/house3.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    box-shadow: 0px 0px 10px gray;
+}
+.max3{
+    width: 330px;
+    height: 250px;
+    background-image: url(./img/house4.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    box-shadow: 0px 0px 10px gray;
+}
+.max4{
+    width: 330px;
+    height: 250px;
+    background-image: url(./img/house2.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    box-shadow: 0px 0px 10px gray;
+}
+.max5{
+    width: 330px;
+    height: 250px;
+    background-image: url(./img/house5.jpg);
+    background-size: cover; 
+    margin-bottom: 10px;
+    margin-right: 15px;
+    box-shadow: 0px 0px 10px gray;
+}
+.max6{
+    width: 330px;
+    height: 250px;
+    background-image: url(./img/house4.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    box-shadow: 0px 0px 10px gray;
+}
+.max7{
+    width: 330px;
+    height: 250px;
+    background-image: url(./img/house3.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    box-shadow: 0px 0px 10px gray;
+}
+.black_txt{
+    width: 40%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.txt_bain{
+    width: 95%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 40px;
+}
+.photo_box{
+    display: flex;
+    width: 97%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.first_box{
+    width: 400px;
+    height: 450px;
+    margin-left: 20px;
+}
+.first_box:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.first_box img{
+    width: 100%;
+}
+.name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.status{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    padding: 20px 0px;
+}
+.opisanie{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.opisanie2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 0px;
+}
+.but_box{
+    width: 100%;
+    padding: 10px 0px;
+    border: 0;
+    margin: 20px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.but_box:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.contact_inp{
+    width: 95%;
+    margin: auto;   
+}
+.project1{
+    padding: 40px 40px 20px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+input{
+    margin: 10px 0px;
+    padding: 10px 0px;
+    width: 100%;
+}
+.send_but{
+    margin: 30px 0px;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: black;   
+    color: white;
+    margin-bottom: 50px;
+}
+.send_but:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+::placeholder{
+    padding: 0px 10px;
+    font-size: 15px;
+}
+.img_foot{
+    width: 90%;
+    margin-left: 15px;
+}
+.footer p{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 30px 0px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white; 
+}
+
+@media (max-width: 510px) {
+    .header {
+        padding: 25px;
+    }
+    .header p, .text_right p {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .text_right, .architects {
+        display: none;
+    }
+    .cont1{
+        width: 95%;
+        height: 300px;
+    }
+    .bain .br{
+        font-size: 20px;
+    }
+    .project p{
+        width: 85%;
+        margin: auto;
+        padding: 30px 0px;
+    }
+    .max, .max1, .max2, .max3, .max4, .max5, .max6, .max7{
+        margin-bottom: 20px;
+    }
+    .txt_bain{
+        width: 85%;
+        margin: auto;
+    }
+    .photo_box{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .photo_box img{
+        width: 97%;
+        margin: auto;
+    }
+    .photo_box .first_box{
+        width: 97%;
+        margin: auto;
+    }
+    .but_box{
+        width: 97%;
+        margin: auto;
+    }
+    .img_foot img{
+        display: flex;
+        justify-content: center;
+        width: 97%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}

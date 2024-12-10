@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1920px;
+}
+body{
+    background-color: black;
+}
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    box-sizing: border-box;
+    position: fixed;
+    box-shadow: 0px 0px 10px gray;
+    background-color: rgba(0, 0, 0, 0.674);
+}
+.txt_left h1{
+    color: white;
+    font-size: 38px;
+}
+.txt_right{
+    display: flex;
+    align-items:center;
+    gap: 50px;
+}
+.txt_right p{
+    color: white;
+    font-size: 20px;
+}
+.txt_right p:hover{
+    color: aqua;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.txt h1{
+    padding-top: 9%;
+    color: white;
+    text-align: center;
+}
+.main{
+    display: grid;
+    padding: 4% 0px 5% 0px; 
+    grid-template-rows: repeat(3, 400px);
+    grid-template-columns: repeat(2, 600px);
+    gap: 25px;
+    justify-content: center;
+}
+.box1{
+    display: flex;
+    gap: 30px;
+    background-color: rgba(74, 30, 30, 0.238);
+    box-shadow: 0px 5px 10px gray;
+}
+.img_data{
+    width: 350px;
+    height: 400px;
+}
+.img_data img{
+    width: 100%;
+    height: 100%;
+}
+.txt_data{
+    width: 200px;
+    height: 300px;
+    margin-top: 60px;
+    text-align: center;
+}
+.big_txt{
+    color: white;
+    padding: 15px 0px;
+}
+.butt{
+    width: 100%;
+    padding: 15px 0px;
+    margin: 20px 0px;  
+    background-color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.butt:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px gray;
+    background-color: aqua;
+    color: black;
+}
+.small_txt{
+    font-size: 20px;
+    padding: 5px 0px;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(246, 244, 244);
+}
+.foot_start{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+.icon_end{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icon_end img{
+    width: 80px;
+    height: 80px;
+}
+.community_end{
+    display: flex;
+    gap: 20px;
+}
+.community_end img{
+    width: 60px;
+    height: 40px;
+}
+.community_end .img {
+    width: 60px;
+    height: 50px;
+    margin-top: -5px;
+}
+.community_end image{
+    width: 100px;
+    height: 100px;
+    margin-top: -2px;
+}
+.footer p{
+    text-align: center;
+}

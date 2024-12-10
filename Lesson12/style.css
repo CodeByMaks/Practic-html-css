@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+.all{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-template-rows: 200px 200px;
+    height: 400px;
+    place-content: center;
+}
+
+.box{
+    background-color: antiquewhite;
+    font-size: 50px;
+    border: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px gray;
+/* 
+    grid-column: 2 / 3;
+    grid-row: 2 / 3; */
+
+    grid-area: 2 / 3 / 3 / 4;
+}

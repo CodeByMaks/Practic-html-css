@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+}
+.main{
+    background: rgb(230, 240, 248);
+    margin-bottom: 100px;
+}
+.header{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+}
+.right_head{
+    display: flex;
+}
+.text_flex{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-size: 17px;
+}
+.text_flex p:hover{
+    color:rgba(64, 163, 248, 1);
+    cursor: pointer;
+}
+.big_text{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(64, 163, 248, 1);
+    margin-top: 10px;
+}
+.but button{
+    color: white;
+    font-size: 17px;
+    background-color: rgba(64, 163, 248, 1);
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 13px 40px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px gray;
+}
+.get_but:hover{
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px gray;
+}
+.left{
+    width: 570px;
+    height: 700px;
+    align-content: center;
+}
+.cont1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.find{
+    font-size: 48px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+span{
+    color: rgba(64, 163, 248, 1);
+}
+.text_desc{
+    font-size: 20px;
+    margin: 40px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(11, 11, 11, 0.493);
+}
+.box{
+    width: 550px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 7px;
+}
+.search{
+    width: 203px;
+    height: 59px;
+    margin-right: 20px;
+    margin-left: 15px;
+    border-radius: 7px;
+    background-color: rgba(245, 246, 250, 0.52);
+}
+.adress{
+    width: 203px;
+    height: 55px;
+    margin-right: 20px;
+    border-radius: 7px;
+    border-color: rgba(22, 2, 2, 0.155);
+    align-content: center;
+    background-color: white;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.location{
+    position: absolute;
+    left: 25.5%;
+}   
+option{
+    text-align: center;
+    font-size: 15px;
+}
+.doctor{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(11, 11, 11, 0.493);
+    border-color:rgba(245, 246, 250, 0.52); ;
+    margin: 5px 0px;
+    padding: 10px 0px;
+}
+.icon{
+    width: 70px;
+    height: 60px;
+    background-color: rgba(64, 163, 248, 1);
+    border-radius: 10px;
+    position: absolute;
+    z-index: 3;
+    right: 56%;
+
+}
+.icon:hover{
+    background-color: black;
+    box-shadow: 0px 0px 10px gray;
+    cursor: pointer;
+}
+.icon img{
+    margin: 13px 16px;
+}
+.bain{
+    display: flex;
+    justify-content: space-around;
+}
+.right{
+    margin-left: 30px;
+    width: 650px;
+    height: 700px;
+    position: relative;
+    z-index: 1;
+}
+.krug{
+    position: absolute;
+    left: 30px;
+}
+.girl img{
+    width: 840px;
+    height: 645px;
+    position: absolute;
+    top: 60px;
+    left: -155px;
+    z-index: 2;
+}
+.first{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}
+.second{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+.third{
+    position: absolute;
+    top: 45%;
+}
+.fouth{
+    position: absolute;
+    right: 0px;
+    bottom: 20%;
+    z-index: 3;
+}
+.fivth{
+    position: absolute;
+    bottom: 7%;
+    z-index: 3;
+}
+.foot_text{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+.endl{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.one{
+    text-align: center;
+    width: 400px;
+    height: 230px;
+    margin-left: 30px;
+}
+.photo{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(223, 231, 239);
+    border-radius: 100%;
+    margin: auto;
+}
+.photo img{
+    margin: 10px 10px;
+}
+.text_man{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 0px;
+}

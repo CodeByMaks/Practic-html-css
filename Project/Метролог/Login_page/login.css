@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(../image/Ресурс\ 1@4x-8\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1920px;
+    margin: auto;
+}
+.header{
+    width: 350px;
+    height: 82px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.box{
+    width: 480px;
+    height: 450px;
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(196, 194, 194);
+}
+.txt_header{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 35px;
+}
+.box_main{
+    width: 90%;
+    height: 355px;
+    margin: auto;
+}
+.email input{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 8px 0px;
+    font-size: 18px;
+    border-color: rgb(247, 246, 246);
+}
+.password input{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 8px 0px;
+    font-size: 18px;
+    border-color: rgb(247, 246, 246);
+}
+.password a{
+    margin-left: 68%;
+}
+.button1{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 25px;
+    padding: 10px 0px;
+    border-radius: 8px;
+    background-color: rgba(92, 29, 29, 0.966);
+    color: white;
+    font-size: 16px;
+}
+::placeholder{
+    padding-left: 10px;
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: #555;
+    margin-top: 6%;
+    margin-left: 5%;
+}
+.checkbox input {
+    transform: scale(1.5); /*для изменения значения чекбокса, то есть размера*/
+    margin-right: 8px; 
+}
+.register{
+    margin-left: 35%;
+}
+
+@media(max-width: 768px){
+    .box{
+        width: 95%;
+        margin: auto;
+    }
+}

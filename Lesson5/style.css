@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+table, td, th{
+    border: 1px solid black;
+    color: white;
+}
+td, th{
+    background-color: green;
+    padding: 10px;
+}
+.m{
+    padding: 0px 60px;
+    background-color: white;
+}

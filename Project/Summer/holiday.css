@@ -1,0 +1,28 @@
+.holiday{
+  border: 1px solid aqua;
+  background-color: lightblue;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0px;
+}
+.bolo{
+    display: flex;
+    padding-left: 10px;
+}
+.fphoto{
+    width: 100%;
+    border-style: solid;
+    margin: 10px 20px 30px 40px;
+
+}
+.sphoto{
+    width: 100%;
+    border-style: solid;
+    margin: 10px 20px 30px 40px;
+}
+.tphoto{
+    width: 100%;
+    border-style: solid;
+    margin: 10px 20px 30px 40px;
+}

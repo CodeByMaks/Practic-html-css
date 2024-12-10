@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+.cony{
+    display: flex;
+}
+.item{
+    text-align: center;
+    padding-top: 70px;
+    border: 1px solid black;
+    width: 30%;
+    height: 100px;
+    background-color: aqua;
+}
+.item1{
+    flex-grow: 1;
+}
+.item:hover{
+    background-color: brown;
+    flex-grow: 10;
+}

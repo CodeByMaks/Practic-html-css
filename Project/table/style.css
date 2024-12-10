@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+table{
+    margin-left: 25px;
+    margin-top: 5px;
+    box-shadow: 5px 6px 10px gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ver{
+    margin-left: 170px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+caption{
+    padding-bottom: 10px;
+}
+.captions{
+    border: 1px solid rgb(168, 166, 166);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 12px;
+    margin-left: 25px;
+    width: 366px;
+    text-align: center;
+}
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+}
+.one{
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: aqua;
+}
+.two{
+    padding-left: 95px;
+    padding-right: 95px;
+    background-color: aqua;
+}
+.ragam{
+    background-color: aqua;
+}
+.ryad1{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(225, 208, 211);
+}
+.nine{
+    background-color: rgb(225, 208, 211);
+}
+.rang{
+    background-color: rgb(225, 208, 211);
+}
+.cp{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
